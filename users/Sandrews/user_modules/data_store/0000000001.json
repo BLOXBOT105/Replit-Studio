@@ -1,0 +1,12 @@
+{
+    test_string : "Test",
+    test_int : 1,
+    test_bool : false,
+    test_list : ["one", 2, "three", 4],
+    test_dict : {
+        one : 1,
+        two : "two",
+        three : 3,
+        four : 4
+    }
+}

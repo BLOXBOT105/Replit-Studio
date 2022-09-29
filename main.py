@@ -3,7 +3,7 @@ from libs import *
 
 debug.enable()
 
-_USERNAME = user = os.environ["REPL_OWNER"]
+_USERNAME = os.environ["REPL_OWNER"]
 
 
 if check_user_value(_USERNAME):
@@ -11,6 +11,8 @@ if check_user_value(_USERNAME):
 else:
     new_user_event(_USERNAME)
 
-debug.out("_DEBUG")
+from users import *
+
+debug.out(LocalPlayer.Name)
 
 debug.disable()

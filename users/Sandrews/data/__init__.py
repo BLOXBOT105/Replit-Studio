@@ -1,9 +1,9 @@
 from libs import *
 
-def new_user_event(username):
+def data_store(username, id, index):
     _USER_DIRECTORY = "users/"+str(username)
     _COMMANDS = [
-        "cp -a default_user "+_USER_DIRECTORY
+        ""
     ]
     
     for _COMMAND in _COMMANDS:
